@@ -20,9 +20,7 @@
  *  
  *****************************************************************************/ 
 
-
-#ifndef TCLAP_OPTIONAL_UNLABELED_TRACKER_H
-#define TCLAP_OPTIONAL_UNLABELED_TRACKER_H
+#pragma once
 
 #include <string>
 
@@ -58,5 +56,3 @@ inline void OptionalUnlabeledTracker::check( bool req, const std::string& argNam
 
 
 } // namespace TCLAP
-
-#endif

@@ -21,24 +21,7 @@
  *
  *****************************************************************************/
 
-#ifndef TCLAP_CMDLINE_H
-#define TCLAP_CMDLINE_H
-
-#include <tclap/SwitchArg.h>
-#include <tclap/MultiSwitchArg.h>
-#include <tclap/UnlabeledValueArg.h>
-#include <tclap/UnlabeledMultiArg.h>
-
-#include <tclap/XorHandler.h>
-#include <tclap/HelpVisitor.h>
-#include <tclap/VersionVisitor.h>
-#include <tclap/IgnoreRestVisitor.h>
-
-#include <tclap/CmdLineOutput.h>
-#include <tclap/StdOutput.h>
-
-#include <tclap/Constraint.h>
-#include <tclap/ValuesConstraint.h>
+#pragma once
 
 #include <string>
 #include <vector>
@@ -47,6 +30,23 @@
 #include <iomanip>
 #include <algorithm>
 #include <stdlib.h> // Needed for exit(), which isn't defined in some envs.
+
+#include "SwitchArg.h"
+#include "MultiSwitchArg.h"
+#include "UnlabeledValueArg.h"
+#include "UnlabeledMultiArg.h"
+
+#include "XorHandler.h"
+#include "HelpVisitor.h"
+#include "VersionVisitor.h"
+#include "IgnoreRestVisitor.h"
+
+#include "CmdLineOutput.h"
+#include "StdOutput.h"
+
+#include "Constraint.h"
+#include "ValuesConstraint.h"
+
 
 namespace TCLAP {
 
@@ -648,4 +648,3 @@ inline void CmdLine::ignoreUnmatched(const bool ignore)
 
 
 } //namespace TCLAP
-#endif

@@ -21,14 +21,12 @@
 *
 *****************************************************************************/
 
-
-#ifndef TCLAP_MULTI_SWITCH_ARG_H
-#define TCLAP_MULTI_SWITCH_ARG_H
+#pragma once
 
 #include <string>
 #include <vector>
 
-#include <tclap/SwitchArg.h>
+#include "SwitchArg.h"
 
 namespace TCLAP {
 
@@ -211,4 +209,3 @@ MultiSwitchArg::reset()
 
 } //namespace TCLAP
 
-#endif

@@ -21,15 +21,13 @@
  *****************************************************************************/ 
 
 
-#ifndef TCLAP_UNLABELED_VALUE_ARGUMENT_H
-#define TCLAP_UNLABELED_VALUE_ARGUMENT_H
+#pragma once
 
 #include <string>
 #include <vector>
 
-#include <tclap/ValueArg.h>
-#include <tclap/OptionalUnlabeledTracker.h>
-
+#include ValueArg.h
+#include OptionalUnlabeledTracker.h
 
 namespace TCLAP {
 
@@ -337,4 +335,3 @@ void UnlabeledValueArg<T>::addToList( std::list<Arg*>& argList ) const
 }
 
 }
-#endif

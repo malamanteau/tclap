@@ -20,13 +20,12 @@
  *****************************************************************************/
 
 
-#ifndef TCLAP_SWITCH_ARG_H
-#define TCLAP_SWITCH_ARG_H
+#pragma once
 
 #include <string>
 #include <vector>
 
-#include <tclap/Arg.h>
+#include "Arg.h"
 
 namespace TCLAP {
 
@@ -267,4 +266,3 @@ inline void SwitchArg::reset()
 
 } //namespace TCLAP
 
-#endif

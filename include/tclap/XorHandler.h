@@ -20,14 +20,14 @@
  *  
  *****************************************************************************/ 
 
-#ifndef TCLAP_XORHANDLER_H
-#define TCLAP_XORHANDLER_H
+#pragma once
 
-#include <tclap/Arg.h>
 #include <string>
 #include <vector>
 #include <algorithm>
 #include <iostream>
+
+#include "Arg.h"
 
 namespace TCLAP {
 
@@ -162,5 +162,3 @@ inline std::vector< std::vector<Arg*> >& XorHandler::getXorList()
 //////////////////////////////////////////////////////////////////////
 
 } //namespace TCLAP
-
-#endif 

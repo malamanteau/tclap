@@ -23,8 +23,7 @@
 // This is an internal tclap file, you should probably not have to
 // include this directly
 
-#ifndef TCLAP_ARGTRAITS_H
-#define TCLAP_ARGTRAITS_H
+#pragma once
 
 namespace TCLAP {
 
@@ -115,6 +114,5 @@ public:
 	typedef typename DefaultArgTrait<T, hasTrait>::ValueCategory ValueCategory;
 };
 
-#endif
 
 } // namespace

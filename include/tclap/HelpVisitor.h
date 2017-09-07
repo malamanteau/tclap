@@ -19,12 +19,11 @@
  *  
  *****************************************************************************/ 
 
-#ifndef TCLAP_HELP_VISITOR_H
-#define TCLAP_HELP_VISITOR_H
+#pragma once
 
-#include <tclap/CmdLineInterface.h>
-#include <tclap/CmdLineOutput.h>
-#include <tclap/Visitor.h>
+#include "CmdLineInterface.h"
+#include "CmdLineOutput.h"
+#include "Visitor.h"
 
 namespace TCLAP {
 
@@ -73,4 +72,3 @@ class HelpVisitor: public Visitor
 
 }
 
-#endif

@@ -20,8 +20,7 @@
  *  
  *****************************************************************************/ 
 
-#ifndef TCLAP_STDCMDLINEOUTPUT_H
-#define TCLAP_STDCMDLINEOUTPUT_H
+#pragma once
 
 #include <string>
 #include <vector>
@@ -29,10 +28,10 @@
 #include <iostream>
 #include <algorithm>
 
-#include <tclap/CmdLineInterface.h>
-#include <tclap/CmdLineOutput.h>
-#include <tclap/XorHandler.h>
-#include <tclap/Arg.h>
+#include "CmdLineInterface.h"
+#include "CmdLineOutput.h"
+#include "XorHandler.h"
+#include "Arg.h"
 
 namespace TCLAP {
 
@@ -296,4 +295,3 @@ inline void StdOutput::spacePrint( std::ostream& os,
 }
 
 } //namespace TCLAP
-#endif 

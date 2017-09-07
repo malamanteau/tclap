@@ -20,8 +20,7 @@
  *  
  *****************************************************************************/ 
 
-#ifndef TCLAP_ZSHCOMPLETIONOUTPUT_H
-#define TCLAP_ZSHCOMPLETIONOUTPUT_H
+#pragma once
 
 #include <string>
 #include <vector>
@@ -29,10 +28,10 @@
 #include <iostream>
 #include <map>
 
-#include <tclap/CmdLineInterface.h>
-#include <tclap/CmdLineOutput.h>
-#include <tclap/XorHandler.h>
-#include <tclap/Arg.h>
+#include "CmdLineInterface.h"
+#include "CmdLineOutput.h"
+#include "XorHandler.h"
+#include "Arg.h"
 
 namespace TCLAP {
 
@@ -320,4 +319,3 @@ inline std::string ZshCompletionOutput::getMutexList( CmdLineInterface& _cmd, Ar
 }
 
 } //namespace TCLAP
-#endif

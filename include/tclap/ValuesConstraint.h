@@ -20,12 +20,12 @@
  *  
  *****************************************************************************/ 
 
-#ifndef TCLAP_VALUESCONSTRAINT_H
-#define TCLAP_VALUESCONSTRAINT_H
+#pragma once
+
 
 #include <string>
 #include <vector>
-#include <tclap/Constraint.h>
+#include "Constraint.h"
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
@@ -144,5 +144,3 @@ std::string ValuesConstraint<T>::description() const
 
 
 } //namespace TCLAP
-#endif 
-
